@@ -20,7 +20,7 @@ public class FavoriteLocation {
      */
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "ID")
-    public long id;
+    public int id;
 
     /**
      * Latitude column
